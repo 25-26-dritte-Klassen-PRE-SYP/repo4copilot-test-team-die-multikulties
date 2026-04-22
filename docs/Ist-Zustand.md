@@ -1,7 +1,7 @@
 Ist-Zustand:
 
 Wie organisiert der Kunde derzeit seine geschäftlichen Aktivitäten?:
-Der Kursleiter organisiert und bietet Sprachkurse an.
+Der Kunde verwaltet seine Sprachkurse momentan auf Papier, er möchte das digitalisieren. 
 
-Wo ist bei dem wie der Kunde heute arbeitet das Problem:
-Er möchte diesen Sprachkurs Digitalisieren um seine Reichweite zu erweitern 
+Momentane Problemstellung des Kunden: 
+Der Kunde hat sehr viel Papierkram und kommt sehr oft durcheinander und deswegen möchte er seine Sprachkurs - Verwaltung digitalisieren.
