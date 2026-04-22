@@ -13,3 +13,4 @@ Idee: Multilingo
 Der Kunde bietet verschiedene Sprachkurse an. Zum Beispiel Sprachkurse in Spanisch, Englisch und Italienisch an. Die verschiedenen Sprachen sind in Niveaus unterteilt --> A1, A2, B1, B2, C1, C2.
 Der Sprachkurs - Anbieter möchte auch seine Kunde verwalten, ob der Kunde an den Einzelunterricht teilnimmt oder an Gruppenunterricht und welche Sprachniveau der Kunde ( der die Sprache gerade lernt) hat.
 Preise müssen natürlich auch verwaltet werden, Preise für den Einzel- und Gruppenunterricht und wie viele Einheiten. (also zum Beispiel kostet Einzelunterricht 90 Minuten xyz Preis)
+Damit Multilingo sicher genutzt werden kann, werden alle persönlichen Informationen der Lernenden verantwortungsvoll behandelt. Dazu zählen z. B. Login‑Daten, Lernfortschritte oder Antworten in interaktiven Übungen.
