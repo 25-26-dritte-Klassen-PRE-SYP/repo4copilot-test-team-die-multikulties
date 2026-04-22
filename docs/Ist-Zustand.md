@@ -5,3 +5,11 @@ Der Kunde verwaltet seine Sprachkurse momentan auf Papier, er möchte das digita
 
 Momentane Problemstellung des Kunden: 
 Der Kunde hat sehr viel Papierkram und kommt sehr oft durcheinander und deswegen möchte er seine Sprachkurs - Verwaltung digitalisieren.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Idee: Multilingo
+
+Der Kunde bietet verschiedene Sprachkurse an. Zum Beispiel Sprachkurse in Spanisch, Englisch und Italienisch an. Die verschiedenen Sprachen sind in Niveaus unterteilt --> A1, A2, B1, B2, C1, C2.
+Der Sprachkurs - Anbieter möchte auch seine Kunde verwalten, ob der Kunde an den Einzelunterricht teilnimmt oder an Gruppenunterricht und welche Sprachniveau der Kunde ( der die Sprache gerade lernt) hat.
+Preise müssen natürlich auch verwaltet werden, Preise für den Einzel- und Gruppenunterricht und wie viele Einheiten. (also zum Beispiel kostet Einzelunterricht 90 Minuten xyz Preis)
