@@ -1,12 +1,10 @@
-IST-ZUSTAND:
+1 IST-ZUSTAND:
 
-Wie organisiert der Kunde derzeit seine geschäftlichen Aktivitäten?:
+1.1 Wie organisiert der Kunde derzeit seine geschäftlichen Aktivitäten?:
+    Der Kunde verwaltet seine Sprachkurse momentan auf Papier, er möchte das digitalisieren. 
 
-Der Kunde verwaltet seine Sprachkurse momentan auf Papier, er möchte das digitalisieren. 
-
-Momentane Problemstellung des Kunden: 
-
-Der Kunde hat sehr viel Papierkram und kommt sehr oft durcheinander und deswegen möchte er seine Sprachkurs - Verwaltung digitalisieren.
+1.2 Momentane Problemstellung des Kunden: 
+    Der Kunde hat sehr viel Papierkram und kommt sehr oft durcheinander und deswegen möchte er seine Sprachkurs - Verwaltung digitalisieren.
 
 Idee: Multilingo
 
@@ -18,7 +16,7 @@ Außerdem erhebt Multilingo nur jene Informationen, die wirklich notwendig sind,
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-IST-KONTEXT:
+1.3 IST-KONTEXT:
 
 DFD:
 
@@ -30,30 +28,29 @@ UCD:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-SOLL-ZUSTAND:
+2. SOLL-ZUSTAND:
 
 
 Es soll eine App erstellt werden, wo Kursteilnehmer und Kursleiter:
 
-Ziele:
+2.1 Ziele:
 
 •	Es gibt die Rollen Kursleiter und Kursteilnehmer
 
-•	Ihre Kurse verwalten können (z.B.: wenn, Teilnehmer an mehrere Kurse teilnehmen)
+      • Kurs -leiter und -teilnehmer können Kurse verwalten (z.B.: wenn, Teilnehmer an mehrere Kurse teilnehmen)
 
 •	Der jeweilige Kursleiter einen Kurs erstellen kann
 
-•	Der jeweilige Kursleiter soll die Teilnehmer des jeweiligen Kurses benoten können, damit die Teilnehmer ein höheres Sprachniveau erreichen können
+•	Der jeweilige Kursleiter kann die Teilnehmer des jeweiligen Kurses benoten (Kursleiter kann Sprachniveau des Teilnehmers erhöhen)
 
-•	Die App über einen App – Store (Apple, Android) verfügbar
+(•	Die App über einen App – Store (Apple, Android) verfügbar)
 
-•	Es sollen Informationen über den Kursteilnehmer verwaltet werden, Accountdaten (Name, Niveau pro Kurs, Beitrittsdatum, Bankdaten zur Überweisung pro Kurs)
+•	Informationen über den Kursteilnehmer werden verwaltet (Accountdaten: Name, Niveau pro Kurs, Beitrittsdatum, Bankdaten zur Überweisung pro Kurs)
 
-•	Die Kursteilnehmer sollen eine Übersicht an die Kurse und Kursinformationen (Preis, Datum, Niveau) haben 
+•	Die Kursteilnehmer haben eine Übersicht an die Kurse und Kursinformationen (Preis, Datum, Niveau) 
 
-•	Die Kursteilnehmer sollen sich in einem Kurs einschreiben können
+•	Die Kursteilnehmer kann sich an einem oder mehrere Kurse einschreiben
 
-•	Die App soll in mehreren Länder abrufbar sein, damit der Kursleiter eine größere Reichweite hat
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
