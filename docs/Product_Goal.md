@@ -57,6 +57,7 @@ SOLL-KONTEXT:
 
 DFD:
 
+<img width="1536" height="1024" alt="Copilot_20260429_104230" src="https://github.com/user-attachments/assets/4fd932e1-0b5c-498f-b5b9-cdba8a7d36eb" />
 
 
 UCD:
