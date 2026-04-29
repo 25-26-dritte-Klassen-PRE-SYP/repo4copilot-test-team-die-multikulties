@@ -20,8 +20,7 @@ IST-KONTEXT:
 
 DFD:
 
-<img width="1674" height="1039" alt="DFD" src="https://github.com/user-attachments/assets/aa9a03b9-517f-4835-8061-27ccff683495" />
-
+<img width="1010" height="622" alt="Unbenannt" src="https://github.com/user-attachments/assets/af593259-1afd-4561-984c-64453518549f" />
 
 UCD:
 
