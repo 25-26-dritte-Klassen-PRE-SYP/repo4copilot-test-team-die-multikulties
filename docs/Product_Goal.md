@@ -39,9 +39,9 @@ Ziele:
 
 •	Der Kursleiter (Angestellter) soll ein Account erstellen können, um Kurse anbieten zu können
 
-    •	Ihre Kurse verwalten können (z.B.: wenn, Teilnehmer an mehrere Kurse teilnehmen)
+ •	Ihre Kurse verwalten können (z.B.: wenn, Teilnehmer an mehrere Kurse teilnehmen)
 
-    •	Der jeweilige Kursleiter einen Kurs erstellen kann
+ •	Der jeweilige Kursleiter einen Kurs erstellen kann
 
 •	Der jeweilige Kursleiter soll die Teilnehmer des jeweiligen Kurses benoten können, damit die Teilnehmer ein höheres Sprachniveau erreichen können
 
