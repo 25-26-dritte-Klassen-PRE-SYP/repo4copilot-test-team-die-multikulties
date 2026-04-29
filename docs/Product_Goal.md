@@ -51,8 +51,14 @@ Es soll eine App erstellt werden, wo Kursteilnehmer und Kursleiter:
 
 •	Die Kursteilnehmer kann sich an einem oder mehrere Kurse einschreiben
 
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 SOLL-KONTEXT:
 
+DFD:
+
+
+
+UCD:
+
+<img width="993" height="627" alt="Screenshot 2026-04-29 094059" src="https://github.com/user-attachments/assets/8a1b0d14-976e-4790-8101-62bf6a76298f" />
