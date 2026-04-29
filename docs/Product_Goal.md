@@ -36,6 +36,7 @@ SOLL-ZUSTAND:
 Es soll eine App erstellt werden, wo Kursteilnehmer und Kursleiter:
 Ziele:
 •	Unser Kunde (oberer Kursleiter) soll verschiedene Kursleiter als Angestellte einstellen können 
+
 •	Der Kursleiter (Angestellter) soll ein Account erstellen können, um Kurse anbieten zu können
 •	Ihre Kurse verwalten können (z.B.: wenn, Teilnehmer an mehrere Kurse teilnehmen)
 •	Der jeweilige Kursleiter einen Kurs erstellen kann
