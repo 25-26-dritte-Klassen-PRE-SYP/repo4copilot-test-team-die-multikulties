@@ -35,19 +35,23 @@ Es soll eine App erstellt werden, wo Kursteilnehmer und Kursleiter:
 
 2.1 Ziele:
 
-•	Es gibt die Rollen Kursleiter und Kursteilnehmer
+-   Die App unterstützt zwei Rollen Kursleiter und Kursteilnehmer
+    Beide Rollen können sich registrieren, einloggen und ihre Daten (Accountdaten) verwalten
 
-      • Kurs -leiter und -teilnehmer können Kurse verwalten (z.B.: wenn, Teilnehmer an mehrere Kurse teilnehmen)
+    - Kurs -leiter und -teilnehmer können Kurse verwalten (z.B.: wenn, Teilnehmer an mehrere Kurse teilnehmen)
 
-•	Der jeweilige Kursleiter einen Kurs erstellen kann
+•	Der jeweilige Kursleiter kann einen Kurs erstellen, bearbeiten und löschen
+    - Mindestens 1 Kurs pro Kursleiter muss erstellt werden können
 
 •	Der jeweilige Kursleiter kann die Teilnehmer des jeweiligen Kurses benoten (Kursleiter kann Sprachniveau des Teilnehmers erhöhen)
+- Jede Bewertung wird im System gespeichert und ist pro Kurs sichtbar
 
 (•	Die App über einen App – Store (Apple, Android) verfügbar)
 
 •	Informationen über den Kursteilnehmer werden verwaltet (Accountdaten: Name, Niveau pro Kurs, Beitrittsdatum, Bankdaten zur Überweisung pro Kurs)
 
 •	Die Kursteilnehmer haben eine Übersicht an die Kurse und Kursinformationen (Preis, Datum, Niveau) 
+    -Mindestens 3 Kursinformationen müssen angezeigt werden
 
 •	Die Kursteilnehmer kann sich an einem oder mehrere Kurse einschreiben
 
