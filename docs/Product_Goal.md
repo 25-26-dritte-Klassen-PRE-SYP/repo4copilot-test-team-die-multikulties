@@ -32,3 +32,17 @@ UCD:
 
 SOLL-ZUSTAND:
 
+
+Es soll eine App erstellt werden, wo Kursteilnehmer und Kursleiter:
+Ziele:
+•	Unser Kunde (oberer Kursleiter) soll verschiedene Kursleiter als Angestellte einstellen können 
+•	Der Kursleiter (Angestellter) soll ein Account erstellen können, um Kurse anbieten zu können
+•	Ihre Kurse verwalten können (z.B.: wenn, Teilnehmer an mehrere Kurse teilnehmen)
+•	Der jeweilige Kursleiter einen Kurs erstellen kann
+•	Der jeweilige Kursleiter soll die Teilnehmer des jeweiligen Kurses benoten können, damit die Teilnehmer ein höheres Sprachniveau erreichen können
+•	Es soll möglich sein die App über einen App – Store (Apple, Android) herunterzuladen
+•	Es sollen Informationen über den Kursteilnehmer verwaltet werden, Accountdaten (Name, Niveau pro Kurs, Beitrittsdatum, Bankdaten zur Überweisung pro Kurs)
+•	Die Kursteilnehmer sollen eine Übersicht an die Kurse und Kursinformationen (Preis, Datum, Niveau) haben 
+•	Die Kursteilnehmer sollen sich in einem Kurs einschreiben können
+•	Die App soll in mehreren Länder abrufbar sein, damit der Kursleiter eine größere Reichweite hat
+
