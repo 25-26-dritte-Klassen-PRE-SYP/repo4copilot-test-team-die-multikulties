@@ -35,7 +35,7 @@ Es soll eine App erstellt werden, wo Kursteilnehmer und Kursleiter:
 
 Ziele:
 
-•	Unser Kunde (oberer Kursleiter) soll verschiedene Kursleiter als Angestellte einstellen können 
+•	Es gibt die Rollen Kursleiter und Kursteilnehmer
 
 •	Der Kursleiter (Angestellter) soll ein Account erstellen können, um Kurse anbieten zu können
 
