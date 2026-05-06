@@ -62,12 +62,12 @@ Es soll eine App erstellt werden, wo Kursteilnehmer und Kursleiter:
 
 DFD:
 
-Siehe IST-KONTEXT
+Siehe IST-KONTEXT: Keine Veränderungen im Diagramm
 
 
 UCD:
 
-Siehe IST-KONTEXT
+Siehe IST-KONTEXT: Keine Veränderungen im Diagramm
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -139,7 +139,7 @@ Siehe IST-KONTEXT
  -Ordnungsmäßigkeit: Merkmale von Software, die bewirken, dass die Software anwendungsspezifische Normen oder Vereinbarungen oder gesetzliche Bestimmungen und ähnliche Vorschriften erfüllt.
  --> relevant
  Ziel: Einhaltung aller gesetzlichen Vorschriften
- Messbarkeit: Anwalt auf Datenschutzrichtlinien befragen
+ Messbarkeit: Anwalt soll eine Liste mit Sicherheitspunkte erstellen, die wir erfüllen müssen
 
  -Richtigkeit: Eignung von Funktionen für spezifizierte Aufgaben, zum Beispiel aufgabenorientierte Zusammensetzung von Funktionen aus Teilfunktionen.
  --> nicht relevant
