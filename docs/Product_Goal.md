@@ -73,3 +73,66 @@ Siehe IST-KONTEXT
 
 2.3 NFA
 
+-Änderbarkeit/Wartbarkeit: Welchen Aufwand erfordert die Durchführung vorgegebener Änderungen an der Software? – Aufwand, der zur Durchführung vorgegebener Änderungen notwendig ist. Änderungen können Korrekturen, Verbesserungen oder Anpassungen an Änderungen der Umgebung, der Anforderungen oder der funktionalen Spezifikationen einschließen.
+
+Analysierbarkeit: Aufwand, um Mängel oder Ursachen von Versagen zu diagnostizieren oder um änderungsbedürftige Teile zu bestimmen.
+
+Konformität: Grad, in dem die Software Normen oder Vereinbarungen zur Änderbarkeit erfüllt.
+
+Modifizierbarkeit: Aufwand zur Ausführung von Verbesserungen, zur Fehlerbeseitigung oder Anpassung an Umgebungsänderungen.
+
+Stabilität: Wahrscheinlichkeit des Auftretens unerwarteter Wirkungen von Änderungen.
+
+Testbarkeit / Prüfbarkeit: Aufwand, der zur Prüfung der geänderten Software notwendig ist.
+
+-Benutzbarkeit: Welchen Aufwand fordert der Einsatz der Software von den Benutzern und wie wird er von diesen beurteilt? – Aufwand, der zur Benutzung erforderlich ist, und individuelle Beurteilung der Benutzung durch eine festgelegte oder vorausgesetzte Benutzergruppe. Siehe auch Software-Ergonomie.
+
+Attraktivität: Anziehungskraft der Anwendung gegenüber dem Benutzer.
+
+Bedienbarkeit: Aufwand für den Benutzer, die Anwendung zu bedienen.
+
+Erlernbarkeit: Aufwand für den Benutzer, die Anwendung zu erlernen (zum Beispiel Bedienung, Ein-, Ausgabe).
+
+Konformität: Grad, in dem die Software Normen oder Vereinbarungen zur Benutzbarkeit erfüllt.
+
+Verständlichkeit: Aufwand für den Benutzer, das Konzept und die Anwendung zu verstehen.
+
+-Effizienz: Wie liegt das Verhältnis zwischen Leistungsniveau der Software und eingesetzten Betriebsmitteln? – Verhältnis zwischen dem Leistungsniveau der Software und dem Umfang der eingesetzten Betriebsmittel unter festgelegten Bedingungen.
+
+Konformität: Grad, in dem die Software Normen oder Vereinbarungen zur Effizienz erfüllt.
+
+Zeitverhalten: Antwort- und Verarbeitungszeiten sowie Durchsatz bei der Funktionsausführung.
+
+Verbrauchsverhalten: Anzahl und Dauer der benötigten Betriebsmittel bei der Erfüllung der Funktionen. Ressourcenverbrauch, wie CPU-Zeit, Festplattenzugriffe usw.
+
+-Funktionalität: Inwieweit besitzt die Software die geforderten Funktionen? – Vorhandensein von Funktionen mit festgelegten Eigenschaften. Diese Funktionen erfüllen die definierten Anforderungen.
+
+Angemessenheit[3]: Liefern der richtigen oder vereinbarten Ergebnisse oder Wirkungen, zum Beispiel die benötigte Genauigkeit von berechneten Werten.
+
+Sicherheit: Fähigkeit, unberechtigten Zugriff, sowohl versehentlich als auch vorsätzlich, auf Programme und Daten zu verhindern.
+
+Interoperabilität: Fähigkeit, mit vorgegebenen Systemen zusammenzuwirken.
+
+Konformität: Fähigkeit des Softwareprodukts, Standards, Konventionen oder gesetzliche Bestimmungen und ähnliche Vorschriften bezogen auf die Funktionalität einzuhalten.[2]
+
+Ordnungsmäßigkeit: Merkmale von Software, die bewirken, dass die Software anwendungsspezifische Normen oder Vereinbarungen oder gesetzliche Bestimmungen und ähnliche Vorschriften erfüllt.
+
+Richtigkeit[3]: Eignung von Funktionen für spezifizierte Aufgaben, zum Beispiel aufgabenorientierte Zusammensetzung von Funktionen aus Teilfunktionen.
+
+-Übertragbarkeit: Wie leicht lässt sich die Software in eine andere Umgebung übertragen? – Eignung der Software, von der Umgebung in eine andere übertragen werden zu können. Umgebung kann organisatorische Umgebung, Hardware- oder Software-Umgebung sein.
+
+Anpassbarkeit: Fähigkeit der Software, diese an verschiedene Umgebungen anzupassen.
+
+Austauschbarkeit: Möglichkeit, diese Software anstelle einer spezifizierten anderen in der Umgebung jener Software zu verwenden, sowie der dafür notwendige Aufwand.
+
+Installierbarkeit: Aufwand, der zum Installieren der Software in einer festgelegten Umgebung notwendig ist.
+
+Koexistenz: Fähigkeit der Software neben einer anderen mit ähnlichen oder gleichen Funktionen zu arbeiten.
+
+Konformität: Grad, in dem die Software Normen oder Vereinbarungen zur Übertragbarkeit erfüllt.
+
+-Zuverlässigkeit: Kann die Software ein bestimmtes Leistungsniveau unter bestimmten Bedingungen über einen bestimmten Zeitraum aufrechterhalten? – Fähigkeit der Software, ihr Leistungsniveau unter festgelegten Bedingungen über einen festgelegten Zeitraum zu bewahren.
+
+Fehlertoleranz: Fähigkeit, ein spezifiziertes Leistungsniveau bei Software-Fehlern oder Nicht-Einhaltung ihrer spezifizierten Schnittstelle zu bewahren.
+
+Konformität: Grad, in dem die Software Normen oder Vereinbarungen zur Zuverlässigkeit erfüllt.
