@@ -61,10 +61,10 @@ SOLL-KONTEXT:
 
 DFD:
 
-<img width="1536" height="1024" alt="Copilot_20260429_104230" src="https://github.com/user-attachments/assets/4fd932e1-0b5c-498f-b5b9-cdba8a7d36eb" />
+Siehe IST-KONTEXT
 
 
 UCD:
 
-<img width="1536" height="1024" alt="Copilot_20260429_104337" src="https://github.com/user-attachments/assets/7e0af5c6-882f-44fd-8071-e825d2bc7599" />
+Siehe IST-KONTEXT
 
