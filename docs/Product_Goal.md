@@ -20,7 +20,8 @@ Außerdem erhebt Multilingo nur jene Informationen, die wirklich notwendig sind,
 
 DFD:
 
-<img width="1010" height="622" alt="Unbenannt" src="https://github.com/user-attachments/assets/af593259-1afd-4561-984c-64453518549f" />
+<img width="1536" height="1024" alt="Copilot_20260506_091157" src="https://github.com/user-attachments/assets/96a62e08-3a58-463d-9fb4-80661035aa18" />
+
 
 UCD:
 
