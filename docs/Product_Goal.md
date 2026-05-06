@@ -97,6 +97,8 @@ Siehe IST-KONTEXT
 
  -Bedienbarkeit: Aufwand für den Benutzer, die Anwendung zu bedienen.
  --> relevant
+ Ziel: Einfache Bedienung für alle User
+ Messbarkeit: User Workshop zur Testung mit Feedback
 
  -Erlernbarkeit: Aufwand für den Benutzer, die Anwendung zu erlernen (zum Beispiel Bedienung, Ein-, Ausgabe).
  --> nicht relevant
@@ -125,15 +127,19 @@ Siehe IST-KONTEXT
 
  -Sicherheit: Fähigkeit, unberechtigten Zugriff, sowohl versehentlich als auch vorsätzlich, auf Programme und Daten zu verhindern.
  --> relevant
+ Ziel: Kein Datenzugriff für nicht authorisierte Personen
+ Messbarkeit: Bestandener Stresstest
 
  -Interoperabilität: Fähigkeit, mit vorgegebenen Systemen zusammenzuwirken.
- --> relevant
+ --> nicht relevant
 
  -Konformität: Fähigkeit des Softwareprodukts, Standards, Konventionen oder gesetzliche Bestimmungen und ähnliche Vorschriften bezogen auf die Funktionalität einzuhalten.
  --> nicht relevant
 
  -Ordnungsmäßigkeit: Merkmale von Software, die bewirken, dass die Software anwendungsspezifische Normen oder Vereinbarungen oder gesetzliche Bestimmungen und ähnliche Vorschriften erfüllt.
  --> relevant
+ Ziel: Einhaltung aller gesetzlichen Vorschriften
+ Messbarkeit: Anwalt auf Datenschutzrichtlinien befragen
 
  -Richtigkeit: Eignung von Funktionen für spezifizierte Aufgaben, zum Beispiel aufgabenorientierte Zusammensetzung von Funktionen aus Teilfunktionen.
  --> nicht relevant
