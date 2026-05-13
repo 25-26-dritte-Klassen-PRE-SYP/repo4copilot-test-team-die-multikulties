@@ -6,184 +6,184 @@ Solution Design – Multilingo App
 
 2. Zielsetzung
 
-Die Multilingo‑App digitalisiert die Sprachkursverwaltung eines Anbieters, der bisher ausschließlich mit Papier arbeitet. Ziel ist eine stabile, sichere und benutzerfreundliche Anwendung für zwei Rollen:
+-Die Multilingo‑App digitalisiert die Sprachkursverwaltung eines Anbieters, der bisher ausschließlich mit Papier arbeitet. Ziel ist eine stabile, sichere und benutzerfreundliche Anwendung für zwei Rollen:
 
-Kursleiter
+-Kursleiter
 
-Kursteilnehmer
+-Kursteilnehmer
 
 3. Systemübersicht
 
-Die App besteht aus folgenden Hauptkomponenten:
+-Die App besteht aus folgenden Hauptkomponenten:
 
 3.1 Frontend
 
-Mobile App (iOS & Android)
+-Mobile App (iOS & Android)
 
-Rollenbasierte UI (Kursleiter/Kursteilnehmer)
+-Rollenbasierte UI (Kursleiter/Kursteilnehmer)
 
-Anzeige und Verwaltung von Kursen, Bewertungen, Accountdaten
+-Anzeige und Verwaltung von Kursen, Bewertungen, Accountdaten
 
 3.2 Backend
 
-REST‑API
+-REST‑API
 
-Authentifizierung & Autorisierung
+-Authentifizierung & Autorisierung
 
-Kurs‑ und Teilnehmerverwaltung
+-Kurs‑ und Teilnehmerverwaltung
 
-Bewertungslogik
+-Bewertungslogik
 
-Preis‑ und Zahlungsdatenverwaltung
+-Preis‑ und Zahlungsdatenverwaltung
 
 3.3 Datenbank
 
-Speicherung aller relevanten Daten:
+-Speicherung aller relevanten Daten:
 
-Benutzer
+-Benutzer
 
-Kurse
+-Kurse
 
-Kurszuordnungen
+-Kurszuordnungen
 
-Bewertungen
+-Bewertungen
 
-Preise
+-Preise
 
-Bankdaten
+-Bankdaten
 
 3.4 Sicherheit
 
-DSGVO‑konforme Speicherung
+-DSGVO‑konforme Speicherung
 
-Verschlüsselte Übertragung (HTTPS)
+-Verschlüsselte Übertragung (HTTPS)
 
-Rollenbasierte Zugriffskontrolle
+-Rollenbasierte Zugriffskontrolle
 
 4. Architekturmodell
 
-Die Architektur folgt einem Client‑Server‑Modell mit klarer Trennung von Präsentation, Logik und Datenhaltung.
+-Die Architektur folgt einem Client‑Server‑Modell mit klarer Trennung von Präsentation, Logik und Datenhaltung.
 
 4.1 Schichtenmodell
 
-Presentation Layer: Mobile App
+-Presentation Layer: Mobile App
 
-Application Layer: Backend‑Services
+-Application Layer: Backend‑Services
 
-Data Layer: Relationale Datenbank
+-Data Layer: Relationale Datenbank
 
 4.2 Schnittstellen
 
-REST‑API für alle CRUD‑Operationen
+-REST‑API für alle CRUD‑Operationen
 
-Auth‑Service (Login/Registrierung)
+-Auth‑Service (Login/Registrierung)
 
 5. Funktionsübersicht (High‑Level)
 
-Die folgenden Funktionen werden später in Items detailliert:
+-Die folgenden Funktionen werden später in Items detailliert:
 
 5.1 Kursleiter
 
-Kurs erstellen, bearbeiten, löschen
+-Kurs erstellen, bearbeiten, löschen
 
-Teilnehmer verwalten
+-Teilnehmer verwalten
 
-Bewertungen vergeben (Niveau erhöhen)
+-Bewertungen vergeben (Niveau erhöhen)
 
-Kursinformationen pflegen
+-Kursinformationen pflegen
 
 5.2 Kursteilnehmer
 
-Registrierung & Login
+-Registrierung & Login
 
-Kurse anzeigen
+-Kurse anzeigen
 
-Kursdetails einsehen (Preis, Datum, Niveau)
+-Kursdetails einsehen (Preis, Datum, Niveau)
 
-Einschreibung in Kurse
+-Einschreibung in Kurse
 
-Accountdaten verwalten
+-Accountdaten verwalten
 
 6. Nichtfunktionale Anforderungen (NFA)
 
-Basierend auf den Vorgaben:
+-Basierend auf den Vorgaben:
 
 6.1 Benutzbarkeit
 
-Einfache Bedienung
+-Einfache Bedienung
 
-Messung durch User‑Workshop
+-Messung durch User‑Workshop
 
 6.2 Sicherheit
 
-Kein unautorisierter Zugriff
+-Kein unautorisierter Zugriff
 
-Messung durch Stresstest
+-Messung durch Stresstest
 
 6.3 Ordnungsmäßigkeit
 
-Einhaltung gesetzlicher Vorschriften
+-Einhaltung gesetzlicher Vorschriften
 
-Anwalt erstellt Prüfliste
+-Anwalt erstellt Prüfliste
 
 7. Datenmodell (High‑Level)
 
 7.1 Hauptentitäten
 
-User (Kursleiter/Kursteilnehmer)
+-User (Kursleiter/Kursteilnehmer)
 
-Course
+-Course
 
-Enrollment (Teilnehmer ↔ Kurs)
+-Enrollment (Teilnehmer ↔ Kurs)
 
-Rating (Bewertungen)
+-Rating (Bewertungen)
 
-Pricing (Einzel/Gruppenunterricht)
+-Pricing (Einzel/Gruppenunterricht)
 
 7.2 Beziehungen
 
-Ein Kursleiter → mehrere Kurse
+-Ein Kursleiter → mehrere Kurse
 
-Ein Kursteilnehmer → mehrere Kurse
+-Ein Kursteilnehmer → mehrere Kurse
 
-Ein Kurs → mehrere Bewertungen
+-Ein Kurs → mehrere Bewertungen
 
 8. Entwicklungsprozess
 
-Wir arbeiten nach SCRUM:
+-Wir arbeiten nach SCRUM:
 
-Product Backlog
+-Product Backlog
 
-Sprint Planning
+-Sprint Planning
 
-Sprint Backlog
+-Sprint Backlog
 
-Iterative Entwicklung
+-Iterative Entwicklung
 
-Items definieren später die fachlichen Details
+-Items definieren später die fachlichen Details
 
 9. Risiken & Annahmen
 
-Risiken
+-Risiken
 
-Datenschutzanforderungen komplex
+-Datenschutzanforderungen komplex
 
-Unterschiedliche Plattformanforderungen (iOS/Android)
+-Unterschiedliche Plattformanforderungen (iOS/Android)
 
-Annahmen
+-Annahmen
 
-Kunde liefert alle rechtlichen Vorgaben
+-Kunde liefert alle rechtlichen Vorgaben
 
-App wird ausschließlich über App‑Stores verteilt
+-App wird ausschließlich über App‑Stores verteilt
 
 10. Ausblick
 
-Die nächsten Schritte:
+-Die nächsten Schritte:
 
-Erstellung des Product Backlogs
+-Erstellung des Product Backlogs
 
-Definition der Items (fachliche Details)
+-Definition der Items (fachliche Details)
 
-Technische Verfeinerung der Architektur
+-Technische Verfeinerung der Architektur
 
-Start des ersten Sprints
+-Start des ersten Sprints
