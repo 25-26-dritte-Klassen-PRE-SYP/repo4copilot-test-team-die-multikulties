@@ -60,8 +60,6 @@ Solution Design – Multilingo App
 
 3.4 Sicherheit
 
--DSGVO‑konforme Speicherung
-
 -Verschlüsselte Übertragung (HTTPS)
 
 -Rollenbasierte Zugriffskontrolle
