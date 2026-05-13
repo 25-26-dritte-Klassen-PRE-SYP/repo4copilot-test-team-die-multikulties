@@ -2,7 +2,7 @@ Solution Design – Multilingo App
 
 1. Überblick
 
-Dieses Solution Design beschreibt die technische und organisatorische Struktur der geplanten Multilingo‑App. Die fachlichen Details werden später in einzelnen Items (SCRUM Product Backlog Items) definiert. Dieses Dokument dient als Architektur‑ und Strukturgrundlage.
+-Dieses Solution Design beschreibt die technische und organisatorische Struktur der geplanten Multilingo‑App. Die fachlichen Details werden später in einzelnen Items (SCRUM Product Backlog Items) definiert. Dieses Dokument dient als Architektur‑ und Strukturgrundlage.
 
 2. Zielsetzung
 
