@@ -8,7 +8,7 @@ Die Lösung fokussiert sich auf eine klare Trennung von Frontend, Backend und Da
 
 ---
 
-## 2. Systemarchitektur & Kontext
+## 2. Systemarchitektur
 
 Die Architektur von Multilingo folgt einem **Mobile‑First‑Ansatz mit zentralem Backend**:
 
