@@ -32,7 +32,7 @@ Das System interagiert mit zwei Hauptakteuren: Kursleitern und Kursteilnehmern. 
 
 ---
 
-# 6. Sicherheitsaskepte
+# 6. SICHERHEITSASPEKTE
 
 - Passwort-Hashing zur sicheren Speicherung von Benutzerpasswörtern
 - HTTPS‑Verschlüsselung für sichere Datenübertragung
@@ -42,7 +42,7 @@ Das System interagiert mit zwei Hauptakteuren: Kursleitern und Kursteilnehmern. 
 
 ---
 
-# 7. Verwendete Technologien
+# 7. VERWENDETE TECHNOLOGIEN
 
 | Bereich | Technologie |
 |---|---|
