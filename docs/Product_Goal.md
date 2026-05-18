@@ -1,10 +1,10 @@
 # 1 IST-ZUSTAND:
 
 ## 1.1 Wie organisiert der Kunde derzeit seine geschäftlichen Aktivitäten?:
-    Der Kunde verwaltet seine Sprachkurse momentan auf Papier, er möchte das digitalisieren. 
+Der Kunde verwaltet seine Sprachkurse momentan auf Papier, er möchte das digitalisieren. 
 
 ## 1.2 Momentane Problemstellung des Kunden: 
-    Der Kunde hat sehr viel Papierkram und kommt sehr oft durcheinander und deswegen möchte er seine Sprachkurs - Verwaltung digitalisieren.
+Der Kunde hat sehr viel Papierkram und kommt sehr oft durcheinander und deswegen möchte er seine Sprachkurs - Verwaltung digitalisieren.
 
 Idee: Multilingo
 
