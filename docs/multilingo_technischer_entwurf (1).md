@@ -60,33 +60,7 @@ Die App ruft diese Informationen über optimierte Lese‑Endpunkte ab, die die r
 
 ---
 
-## 5. Technische Systemqualitäten (nicht‑funktionale Aspekte – technisch formuliert)
-
-Die folgenden Punkte beschreiben technische Eigenschaften der Lösung, ohne sie als Anforderungen zu formulieren:
-
-### 5.1 Benutzbarkeit (technische Perspektive)
-
-Die Benutzeroberfläche der mobilen App ist so aufgebaut, dass zentrale Aktionen mit wenigen Interaktionen erreichbar sind. Die komponentenbasierte Struktur ermöglicht eine konsistente Darstellung und erleichtert Anpassungen.  
-Die App ist für eine klare Trennung der Rollen ausgelegt, sodass Kursleiter und Kursteilnehmer jeweils nur die für sie relevanten Funktionen sehen.
-
-### 5.2 Effizienz und Performance
-
-Die Kommunikation zwischen App und Backend erfolgt über schlanke REST‑Endpunkte, die nur die notwendigen Daten übertragen. Lokale Zwischenspeicherung im Frontend reduziert wiederholte Anfragen und verbessert die Reaktionszeiten.  
-Die Datenbank ist so strukturiert, dass häufige Lesezugriffe (z. B. Kursübersichten, Teilnehmerlisten) effizient ausgeführt werden können.
-
-### 5.3 Sicherheit (technische Umsetzung)
-
-Die Authentifizierung wird über einen dedizierten Auth‑Service realisiert, der Token‑basierte Verfahren (z. B. JWT) verwendet. Passwörter werden gehasht gespeichert, und alle Verbindungen zwischen App und Backend sind verschlüsselt.  
-Im technischen Entwurf wird festgehalten: „Die Anwendung setzt auf moderne Sicherheitsmechanismen, um alle gespeicherten und übertragenen Daten zu schützen.“   
-
-### 5.4 Wartbarkeit und Erweiterbarkeit
-
-Die modulare Backend‑Architektur mit klar getrennten Funktionsbereichen (Benutzerverwaltung, Kursverwaltung, Bewertungslogik) erleichtert spätere Erweiterungen. Neue Funktionen können als zusätzliche Module oder Endpunkte ergänzt werden, ohne bestehende Komponenten stark zu verändern.  
-Die Trennung von Präsentationsschicht, Logikschicht und Datenzugriffsschicht unterstützt eine saubere Strukturierung des Codes und vereinfacht Analyse und Fehlerbehebung.
-
----
-
-## 6. Technologie‑Stack (technische Festlegung)
+## 5. Technologie‑Stack (technische Festlegung)
 
 Für die Umsetzung von Multilingo wird ein moderner Technologie‑Stack verwendet:
 
