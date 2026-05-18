@@ -29,3 +29,14 @@ Die Datenbank speichert alle relevanten Informationen dauerhaft. Sie ist relatio
 # 5. SYSTEMKONTEXT
 
 Das System interagiert mit zwei Hauptakteuren: Kursleitern und Kursteilnehmern. Beide greifen über die mobile App auf das Backend zu. Das Backend kommuniziert ausschließlich mit der Datenbank und stellt alle benötigten Informationen bereit. Externe Systeme werden im aktuellen Entwurf nicht angebunden. Die bestehenden Diagramme aus dem IST‑Kontext bleiben unverändert und bilden weiterhin die Grundlage für den technischen Aufbau.
+
+---
+
+# 7. Verwendete Technologien
+
+| Bereich | Technologie |
+|---|---|
+| Frontend | Flutter |
+| Backend | Node.js |
+| Datenbank | PostgreSQL |
+| Authentifizierung | JWT (JSON Web Token) |
