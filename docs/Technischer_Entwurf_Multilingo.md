@@ -32,6 +32,16 @@ Das System interagiert mit zwei Hauptakteuren: Kursleitern und Kursteilnehmern. 
 
 ---
 
+# 6. Sicherheitsaskepte
+
+- Passwort-Hashing zur sicheren Speicherung von Benutzerpasswörtern
+- HTTPS‑Verschlüsselung für sichere Datenübertragung
+- JWT‑basierte Authentifizierung
+- Rollenbasierte Zugriffsrechte für Kursleiter und Teilnehmer
+- Eingabevalidierung zur Vermeidung fehlerhafter oder schädlicher Daten
+
+---
+
 # 7. Verwendete Technologien
 
 | Bereich | Technologie |
