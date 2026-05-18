@@ -1,9 +1,9 @@
-1 IST-ZUSTAND:
+# 1 IST-ZUSTAND:
 
-1.1 Wie organisiert der Kunde derzeit seine geschäftlichen Aktivitäten?:
+## 1.1 Wie organisiert der Kunde derzeit seine geschäftlichen Aktivitäten?:
     Der Kunde verwaltet seine Sprachkurse momentan auf Papier, er möchte das digitalisieren. 
 
-1.2 Momentane Problemstellung des Kunden: 
+## 1.2 Momentane Problemstellung des Kunden: 
     Der Kunde hat sehr viel Papierkram und kommt sehr oft durcheinander und deswegen möchte er seine Sprachkurs - Verwaltung digitalisieren.
 
 Idee: Multilingo
@@ -16,7 +16,7 @@ Außerdem erhebt Multilingo nur jene Informationen, die wirklich notwendig sind,
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-1.3 IST-KONTEXT:
+## 1.3 IST-KONTEXT:
 
 DFD:
 
@@ -29,12 +29,12 @@ UCD:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-2. SOLL-ZUSTAND:
+# 2. SOLL-ZUSTAND:
 
 
 Es soll eine App erstellt werden, wo Kursteilnehmer und Kursleiter:
 
-2.1 Ziele:
+## 2.1 Ziele:
 
 -   Die App unterstützt zwei Rollen Kursleiter und Kursteilnehmer
     Beide Rollen können sich registrieren, einloggen und ihre Daten (Accountdaten) verwalten
@@ -58,7 +58,7 @@ Es soll eine App erstellt werden, wo Kursteilnehmer und Kursleiter:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-2.2 SOLL-KONTEXT:
+## 2.2 SOLL-KONTEXT:
 
 DFD:
 
@@ -71,7 +71,7 @@ Siehe IST-KONTEXT: Keine Veränderungen im Diagramm
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-2.3 NFA
+## 2.3 NFA
 
 •Änderbarkeit/Wartbarkeit: Welchen Aufwand erfordert die Durchführung vorgegebener Änderungen an der Software? – Aufwand, der zur Durchführung vorgegebener Änderungen notwendig ist. Änderungen können Korrekturen, Verbesserungen oder Anpassungen an Änderungen der Umgebung, der Anforderungen oder der funktionalen Spezifikationen einschließen.
 
