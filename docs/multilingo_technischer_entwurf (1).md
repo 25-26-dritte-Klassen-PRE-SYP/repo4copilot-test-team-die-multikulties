@@ -23,16 +23,125 @@ Im technischen Entwurf ist festgehalten: „Das System interagiert mit zwei Haup
 
 ## 3. Datenmodell (Entity‑Relationship)
 
-Zur Abbildung der fachlichen Kernobjekte wird ein relationales Datenmodell verwendet. Die wichtigsten Entitäten sind:
+# Entity-Relationship-Diagramm (ERD) - Sprachkursverwaltung
 
-- **Benutzer (User):** Repräsentiert Kursleiter und Kursteilnehmer. Attribute umfassen u. a. Identifikator, Name, Login‑Daten und Rolleninformation.
-- **Kurs (Course):** Beschreibt einen Sprachkurs mit Attributen wie Kurs‑ID, Sprache, Niveau (z. B. A1–C2), Kursleiter‑Referenz, Preis und Kursparametern.
-- **Kurszuordnung (CourseEnrollment):** Verknüpft Benutzer mit Kursen und speichert z. B. Beitrittsdatum und aktuelles Sprachniveau im jeweiligen Kurs.
-- **Bewertung (Assessment):** Hält Bewertungen bzw. Niveau‑Anpassungen eines Teilnehmers in einem Kurs fest.
-- **Preisinformation (Pricing):** Speichert Preismodelle für Einzel‑ und Gruppenunterricht sowie die zugehörigen Einheiten (z. B. 90 Minuten).
+```
+┌─────────────────┐
+│     User        │
+├─────────────────┤
+│ PK user_id      │
+│    name         │
+│    login        │
+│    role         │
+└─────────────────┘
+        │
+        │ (1:N)
+        │
+    ┌───┴───┐
+    │       │
+    │       └──────────────────┐
+    │                          │
+    │                    ┌─────────────────────┐
+    │                    │  CourseEnrollment   │
+    │                    ├─────────────────────┤
+    │                    │ PK enrollment_id    │
+    │                    │ FK user_id          │
+    │                    │ FK course_id        │
+    │                    │    join_date        │
+    │                    │    current_level    │
+    │                    └─────────────────────┘
+    │                          │
+    │                          │ (N:1)
+    │                          │
+    │                    ┌─────────────────┐
+    │                    │     Course      │
+    │                    ├─────────────────┤
+    │                    │ PK course_id    │
+    │                    │ FK instructor_id│◄──────┐
+    │                    │    language     │       │
+    │                    │    level       │       │
+    │                    │    price       │       │
+    │                    │    parameters  │       │
+    │                    └─────────────────┘       │
+    │                          │                   │
+    │                          │ (1:N)             │
+    │                          │                   │
+    │                    ┌─────────────────┐       │
+    │                    │   Assessment    │       │
+    │                    ├─────────────────┤       │
+    │                    │ PK assess_id    │       │
+    │                    │ FK user_id      │───────┤ (Kursleiter)
+    │                    │ FK course_id    │       │
+    │                    │    level        │       │
+    │                    │    date         │       │
+    │                    └─────────────────┘       │
+    │                                              │
+    └──────────────────────────────────────────────┘
+         (Kursleiter/Instructor)
 
-Die Beziehungen sind so gestaltet, dass ein Benutzer mehreren Kursen zugeordnet werden kann und ein Kurs mehrere Teilnehmer haben kann. Bewertungen sind jeweils einem Kurs und einem Teilnehmer zugeordnet.  
-Im ursprünglichen Entwurf wird beschrieben: „Zentrale Entitäten sind Benutzer, Kurse, Kurszuordnungen, Bewertungen und Preisinformationen.“   
+┌──────────────────────┐
+│     Pricing          │
+├──────────────────────┤
+│ PK pricing_id        │
+│    lesson_type       │
+│    duration_minutes  │
+│    price             │
+│    model_type        │
+└──────────────────────┘
+        │
+        │ (referenziert durch)
+        │
+    Course
+```
+
+## Beziehungen (Relationships)
+
+| Entitäten | Kardinalität | Beschreibung |
+|-----------|-------------|--------------|
+| User ↔ Course | N:M | über CourseEnrollment |
+| User ↔ CourseEnrollment | 1:N | Ein Benutzer kann mehreren Kursen beitreten |
+| Course ↔ CourseEnrollment | 1:N | Ein Kurs hat mehrere Teilnehmer |
+| User ↔ Assessment | 1:N | Ein Benutzer hat mehrere Bewertungen |
+| Course ↔ Assessment | 1:N | Ein Kurs hat mehrere Bewertungen |
+| User ↔ Course | 1:N | Ein Kursleiter unterrichtet mehrere Kurse |
+| Course ↔ Pricing | N:1 | Ein Kurs verwendet ein Preismodell |
+
+## Attributübersicht
+
+### User
+- **user_id** (PK) - Eindeutige Benutzer-ID
+- **name** - Vollständiger Name
+- **login** - Login-Daten
+- **role** - Rolle (Kursleiter/Teilnehmer)
+
+### Course
+- **course_id** (PK) - Eindeutige Kurs-ID
+- **instructor_id** (FK) - Verweis auf Kursleiter (User)
+- **language** - Sprache
+- **level** - Niveau (A1–C2)
+- **price** - Preis
+- **parameters** - Kursparameter
+
+### CourseEnrollment
+- **enrollment_id** (PK) - Eindeutige Enrollmentt-ID
+- **user_id** (FK) - Verweis auf Benutzer
+- **course_id** (FK) - Verweis auf Kurs
+- **join_date** - Beitrittsdatum
+- **current_level** - Aktuelles Sprachniveau
+
+### Assessment
+- **assess_id** (PK) - Eindeutige Bewertungs-ID
+- **user_id** (FK) - Verweis auf Teilnehmer
+- **course_id** (FK) - Verweis auf Kurs
+- **level** - Bewertetes Niveau
+- **date** - Bewertungsdatum
+
+### Pricing
+- **pricing_id** (PK) - Eindeutige Preis-ID
+- **lesson_type** - Art des Unterrichts (Einzelunterricht/Gruppenunterricht)
+- **duration_minutes** - Dauer (z. B. 90 Minuten)
+- **price** - Preis
+- **model_type** - Preismodell-Typ
 
 ---
 
