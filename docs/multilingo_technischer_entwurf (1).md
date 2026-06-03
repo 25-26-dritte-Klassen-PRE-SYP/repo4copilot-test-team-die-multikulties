@@ -10,9 +10,12 @@ Die Lösung fokussiert sich auf eine klare Trennung von Frontend, Backend und Da
 
 ## 2. Systemarchitektur
 
-Die Architektur von Multilingo folgt einem **Mobile‑First‑Ansatz mit zentralem Backend**:
+Die Architektur von Multilingo folgt nun einem Web‑First‑Ansatz mit zentralem Backend:
 
-- **Frontend (Mobile App):** Eine mobile Anwendung für iOS und Android, die als primäre Benutzerschnittstelle dient. Die App ist rollenbasiert aufgebaut und stellt unterschiedliche Oberflächen für Kursleiter und Kursteilnehmer bereit.
+- **Frontend (Web‑Applikation):
+Eine browserbasierte Web‑App, die auf allen gängigen Geräten (Desktop, Tablet, Smartphone) läuft.
+Die Oberfläche ist rollenbasiert aufgebaut und stellt unterschiedliche Views für Kursleiter und Kursteilnehmer bereit.
+
 - **Backend (Server‑Anwendung):** Ein zentraler Server, der die Geschäftslogik kapselt, Anfragen der App verarbeitet und Datenzugriffe koordiniert. Die Kommunikation erfolgt über eine REST‑API auf Basis von HTTPS.
 - **Persistenz (Datenbank):** Eine relationale Datenbank, in der Benutzer, Kurse, Kurszuordnungen, Bewertungen und Preisinformationen dauerhaft gespeichert werden.
 
@@ -175,10 +178,10 @@ Für die Umsetzung von Multilingo wird ein moderner Technologie‑Stack verwende
 
 | Bereich | Technologie |
 |---|---|
-| Mobile Frontend | Flutter |
+| Web Frontend | React |
 | Backend | Node.js |
 | Datenbank | PostgreSQL |
 | Authentifizierung | JWT |
 
 Diese Kombination ermöglicht eine plattformübergreifende mobile App, ein performantes Backend und eine robuste relationale Datenhaltung.  
-Im technischen Entwurf ist bereits festgelegt: „Frontend \| Flutter – Backend \| Node.js – Datenbank \| PostgreSQL – Authentifizierung \| JWT (JSON Web Token).“
+Im technischen Entwurf ist bereits festgelegt: „Frontend \| REact – Backend \| Node.js – Datenbank \| PostgreSQL – Authentifizierung \| JWT (JSON Web Token).“
