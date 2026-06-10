@@ -44,6 +44,19 @@ const sampleCourses: Course[] = [
     currentParticipants: 5,
     description: "Spanisch für Reisende und Urlauber",
   },
+  {
+    id: "4",
+    name: "Gyro ordering 101",
+    language: "Griechisch",
+    level: "A1",
+    instructor: "Gargamel",
+    price: 159,
+    startDate: "2026-11-01",
+    endDate: "2026-12-30",
+    maxParticipants: 100,
+    currentParticipants: 99,
+    description: "Gerichtlich zertifizierter Gyroskurs (für Profis!)",
+  },
 ]
 
 // Initialize store with sample data
