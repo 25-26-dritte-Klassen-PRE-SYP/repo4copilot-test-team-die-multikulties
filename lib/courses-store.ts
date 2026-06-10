@@ -46,7 +46,7 @@ const sampleCourses: Course[] = [
   },
   {
     id: "4",
-    name: "Gyro ordering 101",
+    name: "Gyros ordering 101",
     language: "Griechisch",
     level: "A1",
     instructor: "Gargamel",
@@ -56,6 +56,19 @@ const sampleCourses: Course[] = [
     maxParticipants: 100,
     currentParticipants: 99,
     description: "Gerichtlich zertifizierter Gyroskurs (für Profis!)",
+  },
+  {
+    id: "5",
+    name: "Rumäisch lernen 101",
+    language: "Rumänisch",
+    level: "A1",
+    instructor: "Aldo",
+    price: 159,
+    startDate: "2026-11-01",
+    endDate: "2026-12-30",
+    maxParticipants: 100,
+    currentParticipants: 1,
+    description: "Gerichtlich zertifizierter Rumäischkurs (für Profis!)",
   },
 ]
 
