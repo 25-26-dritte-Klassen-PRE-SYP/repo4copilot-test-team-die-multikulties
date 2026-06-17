@@ -81,7 +81,7 @@ export function CourseForm({ open, onOpenChange, course, onSubmit }: CourseFormP
       <DialogContent className="max-w-md max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle>
-            {course ? "Kurs bearbeiten" : "Neuer Kurs"}
+            {course ? "Kurs bearbeiten" : "Neuer Kurs bitte hier eingeben"}
           </DialogTitle>
         </DialogHeader>
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -194,7 +194,7 @@ export function CourseForm({ open, onOpenChange, course, onSubmit }: CourseFormP
               Abbrechen
             </Button>
             <Button type="submit">
-              {course ? "Speichern" : "Erstellen"}
+              {course ? "Jetzt Speichern" : "Erstellen"}
             </Button>
           </div>
         </form>
